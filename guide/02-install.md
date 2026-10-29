@@ -3,6 +3,10 @@
 *About 30 minutes, once.* You'll install Python, Claude Code and the TypeSafe skill, and store
 your Jev API key safely.
 
+> **Prefer to be guided?** Paste [SETUP-PROMPT.md](../SETUP-PROMPT.md) into an AI chat, and it will
+> walk you through these steps one at a time. After step 3, type **`/setup`** in Claude Code to have
+> it check and guide the rest.
+
 > **Mac users:** the Mac steps below are written from the official instructions but haven't been
 > tested yet. If something doesn't match what you see, please
 > [open an issue](https://github.com/byui-library/jev-email-triage/issues).

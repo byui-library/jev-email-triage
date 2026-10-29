@@ -28,9 +28,20 @@ does the coding. You make the decisions.
 
 A typical run judges 30–50 emails in about a second, for **a fraction of a cent**.
 
+## Prefer to be guided?
+
+Let an AI walk you through setup one step at a time, waiting for you to finish each step:
+
+1. **Before installing anything:** copy the prompt in [SETUP-PROMPT.md](SETUP-PROMPT.md) into a
+   chat with an AI assistant, such as Claude at [claude.ai](https://claude.ai). It walks you
+   through installing Python and Claude Code.
+2. **Once Claude Code is installed:** open a terminal in this folder, run `claude`, and type
+   **`/setup`**. It checks each remaining step on your computer, skips what's done, and picks up
+   where you left off whenever you run it again.
+
 ## The guide
 
-Work through these in order:
+Prefer to read? Work through these in order:
 
 1. [What Jev is, and why it's different](guide/01-what-is-jev.md) (10-minute read, no setup)
 2. [Install the tools](guide/02-install.md): Python, Claude Code, the TypeSafe skill and your API key

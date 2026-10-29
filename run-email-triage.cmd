@@ -20,8 +20,8 @@ echo Step 2 of 2: asking Jev and ranking threads...
 py -3 -m email_triage.run --input private\threads.json --cap 0.10
 if errorlevel 1 goto :fail
 
-rem Open the newest report.
-for /f "delims=" %%R in ('dir /b /s /o:d "private\runs\followup-*.md" 2^>nul') do set "REPORT=%%R"
+rem Open the newest real report (sample reports are named followup-sample-*).
+for /f "delims=" %%R in ('dir /b /s /o:d "private\runs\followup-20*.md" 2^>nul') do set "REPORT=%%R"
 if defined REPORT (
     echo.
     echo Opening %REPORT%

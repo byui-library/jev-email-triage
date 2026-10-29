@@ -28,7 +28,7 @@ echo
 echo "Step 2 of 2: asking Jev and ranking threads..."
 python3 -m email_triage.run --input private/threads.json --cap 0.10 || fail
 
-REPORT="$(ls -t private/runs/*/followup-*.md 2>/dev/null | head -n 1)"
+REPORT="$(ls -t private/runs/*/followup-20*.md 2>/dev/null | head -n 1)"
 if [[ -n "$REPORT" ]]; then
   echo
   echo "Opening $REPORT"

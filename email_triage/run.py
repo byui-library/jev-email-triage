@@ -219,7 +219,7 @@ def main() -> None:
         rows = list(pool.map(lambda t: process(t, today, key, budget, run_dir), todo))
     elapsed = time.perf_counter() - started
 
-    report = run_dir / f"followup-{today.isoformat()}.md"
+    report = run_dir / f"followup-{'sample-' if args.sample else ''}{today.isoformat()}.md"
     write_report(rows, skipped, today, report, elapsed, budget.spent)
     errors = sum("error" in r for r in rows)
     print(f"{len(rows)} threads in {elapsed:.1f}s, ~${budget.spent:.5f}, {errors} errors. Report: {report}")

@@ -1,0 +1,3 @@
+# Needed only for connecting Gmail (guide/04). The sample run uses just the Python standard library.
+google-api-python-client
+google-auth-oauthlib

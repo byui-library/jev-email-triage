@@ -1,0 +1,116 @@
+[
+ {"id": "s01-budget-numbers", "subject": "Q4 budget numbers", "view_url": null, "expected": "reply_needed",
+  "messages": [
+   {"sender": "Dana Whitfield <dana.whitfield@example.org>", "from_me": false, "date": "2026-10-27T15:10:00Z",
+    "body": "Hi,\n\nCould you send me your department's Q4 supply numbers by Friday, October 30? I'm pulling the budget summary together for the director and yours is the last one I need.\n\nThanks!\nDana", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s02-extension-request", "subject": "Extension request for the research paper", "view_url": null, "expected": "reply_needed",
+  "messages": [
+   {"sender": "Jordan Lee <jlee.student@example.edu>", "from_me": false, "date": "2026-10-28T02:41:00Z",
+    "body": "Hello,\n\nI've been sick this week and I'm behind on the research paper due November 2. Would it be possible to get a three-day extension? I can send a doctor's note if needed.\n\nThank you,\nJordan", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s03-meeting-request", "subject": "Quick meeting next week?", "view_url": null, "expected": "reply_needed",
+  "messages": [
+   {"sender": "Priya Raman <priya.raman@example.org>", "from_me": false, "date": "2026-10-26T18:05:00Z",
+    "body": "Hi,\n\nI'd like 30 minutes with you next week to go over the spring staffing plan. Which afternoons work for you?\n\nPriya\nDirector of Operations", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s04-quote-request", "subject": "Quote for 40 study carrels", "view_url": null, "expected": "waiting_on_them",
+  "messages": [
+   {"sender": "You", "from_me": true, "date": "2026-10-22T16:30:00Z",
+    "body": "Hello Marcus,\n\nCould you send a quote for 40 study carrels like the ones we ordered last year, including delivery? We'd like to decide by mid-November.\n\nThanks", "to": ["Marcus Bell"], "cc": []}
+  ]},
+ {"id": "s05-doc-review", "subject": "Can you review the new onboarding checklist?", "view_url": null, "expected": "waiting_on_them",
+  "messages": [
+   {"sender": "Sam Ortiz <sam.ortiz@example.org>", "from_me": false, "date": "2026-10-20T14:00:00Z",
+    "body": "Sure, happy to help with the onboarding project. Send it over whenever.", "to": ["You"], "cc": []},
+   {"sender": "You", "from_me": true, "date": "2026-10-21T15:20:00Z",
+    "body": "Thanks Sam! The checklist is attached. Could you mark anything that's unclear and send it back?", "to": ["Sam Ortiz"], "cc": [],
+    "attachments": ["onboarding-checklist-draft.docx"]}
+  ]},
+ {"id": "s06-lost-package", "subject": "Order 55120 never arrived", "view_url": null, "expected": "open_issue",
+  "messages": [
+   {"sender": "You", "from_me": true, "date": "2026-10-19T17:00:00Z",
+    "body": "Hi, my order 55120 shows as delivered but nothing arrived. Can you help?", "to": ["Harbor Outfitters Support"], "cc": []},
+   {"sender": "Lena Park <lena@harbor-outfitters.example.com>", "from_me": false, "date": "2026-10-20T13:12:00Z",
+    "body": "I'm sorry about that! I've opened an investigation with the carrier. It usually takes 5 to 7 business days.\n\nLena, Harbor Outfitters", "to": ["You"], "cc": []},
+   {"sender": "You", "from_me": true, "date": "2026-10-20T14:00:00Z",
+    "body": "Thanks, Lena.", "to": ["Lena Park"], "cc": []}
+  ]},
+ {"id": "s07-ticket-payment", "subject": "Reminder: complete payment for your concert seats", "view_url": null, "expected": "check",
+  "messages": [
+   {"sender": "Lakeside Concert Hall <tickets@lakeside-hall.example.com>", "from_me": false, "date": "2026-10-28T09:00:00Z",
+    "body": "Dear Patron,\n\nYour reserved seats for the Winter Gala are being held for you. Please complete payment by Saturday 31st October 2026, or the seats will be released for general sale.\n\nPay now: https://lakeside-hall.example.com/pay?ref=SAMPLE\n\nThis is an automated email. Please do not reply.", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s08-stale-rsvp", "subject": "RSVP for the volunteer appreciation dinner", "view_url": null, "expected": "check",
+  "messages": [
+   {"sender": "Grace Holloway <grace.h@example.org>", "from_me": false, "date": "2026-09-18T16:45:00Z",
+    "body": "Hi!\n\nWe'd love to have you at the volunteer appreciation dinner. Could you RSVP by September 25 so we can give the caterer a head count?\n\nGrace", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s09-invoice-zip", "subject": "URGENT invoice overdue", "view_url": null, "expected": "suspicious",
+  "messages": [
+   {"sender": "billing.dept.7731@gmail.example.com", "from_me": false, "date": "2026-10-27T03:22:00Z",
+    "body": "Your invoice is overdue. Open the attached file immediately to avoid account suspension.", "to": ["You"], "cc": [],
+    "attachments": ["invoice_8832.zip"]}
+  ]},
+ {"id": "s10-mailbox-full", "subject": "Your mailbox is almost full", "view_url": null, "expected": "suspicious",
+  "messages": [
+   {"sender": "Mail Admin <admin@mail-quota-center.example.net>", "from_me": false, "date": "2026-10-28T05:10:00Z",
+    "body": "Your mailbox has reached 98% of its limit. Incoming mail will be rejected in 24 hours. Verify your account password here to keep receiving email: http://mail-quota-center.example.net/verify", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s11-newsletter", "subject": "This month at the Riverside Museum", "view_url": null, "expected": "no_action",
+  "messages": [
+   {"sender": "Riverside Museum <news@riverside-museum.example.org>", "from_me": false, "date": "2026-10-25T12:00:00Z",
+    "body": "New exhibits, member nights and our fall lecture series. Read the full newsletter online. You are receiving this because you are a member.", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s12-promo-today", "subject": "Ends tonight: 25% off all desk chairs", "view_url": null, "expected": "no_action",
+  "messages": [
+   {"sender": "Comfort Office Co. <deals@comfort-office.example.com>", "from_me": false, "date": "2026-10-29T08:00:00Z",
+    "body": "Last chance! Our biggest chair sale of the year ends at midnight on October 29. Shop now before it's gone.", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s13-survey", "subject": "How did we do? Tell us about your recent visit", "view_url": null, "expected": "no_action",
+  "messages": [
+   {"sender": "City Bank <survey@feedback.citybank.example.com>", "from_me": false, "date": "2026-10-24T19:00:00Z",
+    "body": "Thanks for visiting a branch recently. Please take 2 minutes to rate your experience. Select a score to begin.", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s14-group-thread", "subject": "Saturday setup crew", "view_url": null, "expected": "no_action",
+  "messages": [
+   {"sender": "Alex Chen <alex.chen@example.org>", "from_me": false, "date": "2026-10-26T20:00:00Z",
+    "body": "We need two more people for Saturday setup. I can bring the tables.", "to": ["Rosa Diaz", "You", "Ben Carter"], "cc": []},
+   {"sender": "You", "from_me": true, "date": "2026-10-26T21:15:00Z",
+    "body": "I'll be there at 8.", "to": ["Alex Chen"], "cc": ["Rosa Diaz", "Ben Carter"]},
+   {"sender": "Rosa Diaz <rosa.diaz@example.org>", "from_me": false, "date": "2026-10-27T15:30:00Z",
+    "body": "Ben, can you bring the extension cords? Alex, I'll grab the banner.", "to": ["Ben Carter", "Alex Chen"], "cc": ["You"]}
+  ]},
+ {"id": "s15-thank-you", "subject": "Thank you!", "view_url": null, "expected": "no_action",
+  "messages": [
+   {"sender": "Maria Gomez <maria.gomez@example.org>", "from_me": false, "date": "2026-10-23T22:00:00Z",
+    "body": "Just wanted to say thank you for covering my shift last week. It really helped!\n\nMaria", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s16-shipping", "subject": "Your order has shipped", "view_url": null, "expected": "no_action",
+  "messages": [
+   {"sender": "ShopRight <orders@shopright.example.com>", "from_me": false, "date": "2026-10-27T11:00:00Z",
+    "body": "Good news! Your order of 1 item has shipped and should arrive Thursday. Track your package online.", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s17-closed-loop", "subject": "Lunch Thursday?", "view_url": null, "expected": "no_action",
+  "messages": [
+   {"sender": "Chris Novak <chris.novak@example.org>", "from_me": false, "date": "2026-10-26T17:00:00Z",
+    "body": "Want to grab lunch Thursday at noon? The usual place?", "to": ["You"], "cc": []},
+   {"sender": "You", "from_me": true, "date": "2026-10-26T17:20:00Z",
+    "body": "Sounds good, see you then!", "to": ["Chris Novak"], "cc": []}
+  ]},
+ {"id": "s18-receipt", "subject": "Receipt for your donation", "view_url": null, "expected": "no_action",
+  "messages": [
+   {"sender": "Food Bank of the Valley <receipts@valleyfoodbank.example.org>", "from_me": false, "date": "2026-10-21T10:00:00Z",
+    "body": "Thank you for your gift of $50. Please keep this receipt for your tax records.", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s19-friend-saturday", "subject": "Saturday hike", "view_url": null, "expected": "reply_needed",
+  "messages": [
+   {"sender": "Taylor Brooks <taylor.brooks@example.com>", "from_me": false, "date": "2026-10-28T19:30:00Z",
+    "body": "Are you still in for the hike on Saturday? I need to know by Friday so I can reserve the parking pass.", "to": ["You"], "cc": []}
+  ]},
+ {"id": "s20-all-staff", "subject": "Building closed Monday for maintenance", "view_url": null, "expected": "no_action",
+  "messages": [
+   {"sender": "Facilities <facilities@example.org>", "from_me": false, "date": "2026-10-27T16:00:00Z",
+    "body": "Reminder: the main building will be closed Monday, November 2 for HVAC maintenance. Please plan to work remotely.", "to": ["All Staff"], "cc": []}
+  ]}
+]
